@@ -1,0 +1,31 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+
+#menu{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(31, 50, 155);
+}
+
+#menu ul li{
+    display: inline;
+    
+    
+}
+#menu ul li a{
+    font-family: 'Trebuchet MS';
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    
+}
+#menu ul li a:hover{
+    background-color: rgb(252, 135, 9);
+    
+}
